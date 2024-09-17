@@ -37,6 +37,11 @@ func main() {   // Função main não retorna nada naturalmente
 	x.Println(myText2) // Alien
 	x.Println(STATE) // done
 
+	a = 10 
+	a = x + 10
+	a += 1
+
+	x.Println(a)
 	
 
 }
